@@ -1,0 +1,166 @@
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	color: inherit;
+}
+
+td{
+	width: 250px;
+}
+
+@media(max-width: 1000px){
+	.container{
+		display: none;
+	}
+	#intro{
+		height:1000px;
+
+	}
+	.intro-text{
+		margin: 7%  auto;
+		position: relative;
+		top: 28%;
+	}
+}
+@media(min-width: 1000px){
+	.container2{
+		display: none;
+	}
+}
+.invisible{
+	display: none;
+}
+
+.container{
+		background-color: white;
+		padding: 4% 0%;
+		
+		
+		
+}
+
+
+
+
+.container3{
+	background-color: white;
+	margin: 3% 3%;
+}
+.container2{
+	background-color: white;
+	padding: 4%;
+}
+.nav-item{
+	font-size: 1.4rem;
+	color:black;
+}
+.nav-item:hover{
+	color: red;
+}
+
+
+
+
+
+.title{
+	font-family: 'vollkorn',serif;
+	font-size: 3rem;
+	margin-top: 1%;
+	color:black;
+}
+
+#education{
+	margin-top: 5%;
+}
+#intro{
+	background-color: black;
+	text-align:center;
+
+}
+.intro-text{
+	color: white;
+	padding: 6% 0%;
+	line-height: 1.6;
+}
+
+
+
+
+
+
+
+.contact{
+	text-align:center;
+	font-family: 'vollkorn',serif;
+	font-size: 3rem;
+	margin-top: 100px;
+	
+	width: 100%;
+	height: auto;
+
+}
+
+.fab{
+	font-size: 2.5rem;
+}
+.contact_table{
+	margin-top: 7%;
+	margin-bottom: 10%;
+	line-height: 1.5;
+}
+.email{
+	margin-top: 5%;
+	font-size: 2rem;
+}
+.fab:hover{
+	font-size: 3.3rem;
+	color: red;
+
+}
+.education{
+	background-color: black;
+	text-align: center;
+
+	font-family: 'vollkorn',serif;
+	font-size: 2rem;
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 6%;
+
+}
+#education{
+	margin-bottom: 6%;
+	font-size: 3.5rem;
+	color: yellow;
+}
+.decorate{
+	color: yellow;
+	font-size: 2.5rem;
+}
+.edu_para{
+	font-size: 2rem;
+	
+	line-height: 2;
+	text-align: left;
+	margin-left: 15%;
+	color: white;
+}
+
+.fa-user-tie{
+	font-size: 5rem;
+	color: black;
+}
+.dropdown{
+	background-color: white;
+	color: black;
+	position:relative;
+	top: 20%;
+	right: 20%;
+}
+.dropdown:hover{
+	background-color: black;
+	color:white;
+	box-shadow: 1px 1px 10px white;
+}
