@@ -59,6 +59,13 @@ td{
 .nav-item:hover{
 	color: red;
 }
+.nav-item-drop{
+	font-size:2.5rem;
+	color:black;
+}
+.nav-item-drop:hover{
+	color:red;
+}
 
 
 
