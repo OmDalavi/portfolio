@@ -77,6 +77,12 @@ td{
 	margin-top: 1%;
 	color:black;
 }
+.title-drop{
+	font-family: 'vollkorn',serif;
+	font-size: 4rem;
+	margin-top: 1%;
+	color:black;
+}
 
 #education{
 	margin-top: 5%;
@@ -165,7 +171,7 @@ td{
 	position:relative;
 	top: 20%;
 	right: 20%;
-	font-size: 170%;
+	font-size: 200%;
 }
 .dropdown:hover{
 	background-color: black;
