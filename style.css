@@ -90,9 +90,13 @@ td{
 #intro{
 	background-color: black;
 	text-align:center;
+<<<<<<< HEAD
 	align-content: center;
 	height: 700px;
 
+=======
+	height: 900px;
+>>>>>>> 1271fe48cb47e0ffd036a4f68c28c66bcde9ce5a
 
 }
 .intro-text{
