@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 a{
 	text-decoration: none;
 	color: inherit;
@@ -10,25 +13,7 @@ td{
 	width: 250px;
 }
 
-@media(max-width: 1000px){
-	.container{
-		display: none;
-	}
-	#intro{
-		height:1000px;
 
-	}
-	.intro-text{
-		margin: 7%  auto;
-		position: relative;
-		top: 28%;
-	}
-}
-@media(min-width: 1000px){
-	.container2{
-		display: none;
-	}
-}
 .invisible{
 	display: none;
 }
@@ -47,6 +32,7 @@ td{
 .container3{
 	background-color: white;
 	margin: 3% 3%;
+
 }
 .container2{
 	background-color: white;
@@ -60,9 +46,14 @@ td{
 	color: red;
 }
 .nav-item-drop{
-	font-size:2.5rem;
+
+	font-size:4rem;
 	color:black;
+	color: darkblue;
+	margin-left: 6%;
+	text-align:left;
 }
+
 .nav-item-drop:hover{
 	color:red;
 }
@@ -80,7 +71,7 @@ td{
 .title-drop{
 	font-family: 'vollkorn',serif;
 	font-size: 4rem;
-	margin-top: 1%;
+	margin-top: 3%;
 	color:black;
 }
 
@@ -124,10 +115,11 @@ td{
 
 .fab{
 	font-size: 2.5rem;
+	transition: font-size .3s,color .3s;
 }
 .contact_table{
-	margin-top: 7%;
-	margin-bottom: 10%;
+	margin-top: 4%;
+	margin-bottom: 4%;
 	line-height: 1.5;
 }
 .email{
@@ -135,7 +127,7 @@ td{
 	font-size: 2.3rem;
 }
 .fab:hover{
-	font-size: 3.4rem;
+	font-size: 3.5rem;
 	color: red;
 
 }
@@ -175,14 +167,96 @@ td{
 .dropdown{
 	background-color: white;
 	color: black;
-	position:relative;
-	top: 20%;
-	right: 20%;
-	font-size: 200%;
+	margin-top: 10%;
+	font-size: 400%;
+	border-style: none;
+	
+	width: 110%;
+
 }
-.dropdown:hover{
+
+
+/*.dropdown:hover{
 	background-color: black;
 	color:white;
 	box-shadow: 1px 1px 10px white;
 
+}*/
+.contact-me-text{
+	font-size: 3rem;
+}
+.email:hover{
+	color: blue;
+}
+.bottom-text{
+	text-align: center;
+	font-size: 1.5rem;
+	margin-bottom: 3%;
+}
+.home{
+	position: fixed;
+	font-size: 1rem;
+	border-style: none;
+	padding: .5%;
+	
+	color: red;
+
+}
+.home:hover{
+	color: orange;
+}
+@media(max-width: 1000px){
+	.container{
+		display: none;
+	}
+	#intro{
+		height:1000px;
+
+	}
+	.intro-text{
+		margin: 7%  auto;
+		position: relative;
+		top: 28%;
+	}
+	.title-drop{
+		font-size: 5rem;
+	}
+	#intro{
+		height: 700px;
+	}
+	.contact-me-text{
+		font-size: 5rem;
+	}
+	.email{
+		font-size: 4rem;
+	}
+	.fab{
+		font-size: 5rem;
+		margin-top: 15%;
+
+	}
+	.bottom-text{
+		font-size: 2.5rem;
+		margin-top: 9%;
+		margin-bottom: 4%;
+	}
+	#education{
+		font-size: 4.5rem;
+	}
+	.decorate{
+		font-size: 4rem;
+	}
+	.edu_para{
+		font-size: 3.5rem;
+	}
+	.home{
+		display: none;
+	}
+
+	
+}
+@media(min-width: 1000px){
+	.container2{
+		display: none;
+	}
 }

@@ -17,4 +17,10 @@ $(".dropdown").on("click",function(){
 	// $(".container3").toggle(1000);
 });
 
+function back(){
+	$(".dropdown").css("backgroundColor","white");
+	$(".dropdown").css("color","black");
+	
+
+}
 
